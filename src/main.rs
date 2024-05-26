@@ -1,8 +1,4 @@
-use bevy::{
-    prelude::*,
-    sprite::{MaterialMesh2dBundle, Mesh2dHandle},
-    window::WindowResolution,
-};
+use bevy::{prelude::*, window::WindowResolution};
 use bevy_inspector_egui::quick::WorldInspectorPlugin;
 
 pub mod components;
@@ -11,9 +7,9 @@ pub mod resources;
 pub mod systems;
 mod ui;
 
-use components::*;
-use events::*;
-use resources::*;
+// use components::*;
+// use events::*;
+// use resources::*;
 use systems::*;
 
 // use self::ui::UiCustomPlugin;
